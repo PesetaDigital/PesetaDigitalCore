@@ -1,0 +1,9 @@
+Building PesetaDigital
+
+See doc/readme-qt.rst for instructions on building PesetaDigital QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of PesetaDigital.
+
+See doc/build-*.txt for instructions on building PesetaDigitald,
+the intended-for-services, no-graphical-interface, reference
+implementation of PesetaDigital.

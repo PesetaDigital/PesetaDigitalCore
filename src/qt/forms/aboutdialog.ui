@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Acerca de Peseta Digital</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 75 12pt &quot;Century Gothic&quot;;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;Century Gothic&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;b&gt;Peseta Digital&lt;/b&gt; version</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="versionLabel">
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;Century Gothic&quot;;</string>
+         </property>
+         <property name="text">
+          <string notr="true">0.3.666-beta</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="copyrightLabel">
+       <property name="cursor">
+        <cursorShape>IBeamCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Century Gothic&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Copyright © 2021 El equipo de Peseta Digital</string>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+     <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+      <widget class="QLabel" name="label_2">
+       <property name="cursor">
+        <cursorShape>IBeamCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 08pt &quot;Century Gothic&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is experimental software.&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X13 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.&lt;/p&gt;&lt;p&gt;This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;Información técnica:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Algoritmo: X13&lt;/p&gt;&lt;p&gt;Emisión monetaria total: 166.386.000 Pesetas Digitales&lt;/p&gt;&lt;p&gt;Tiempo entre bloques: 5 minutos &lt;/p&gt;&lt;p&gt;Retorno PoS: Se reduce cada halving &lt;/p&gt;&lt;p&gt;La dificultad de minado se actualiza cada bloque&lt;/p&gt;&lt;p&gt;Confirmaciones: 50 para minado y 6 para transacciones&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;🌎Website: &lt;a href=&quot; https://pesetadigital.es/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt; https://pesetadigital.es/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;💬Telegram: &lt;a href=&quot; https://t.me/PesetaDigital&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt; https://t.me/Pesetacoin&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+       </property>
+      </widget>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;Century Gothic&quot;;</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../bitcoin.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AboutDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>360</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AboutDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
