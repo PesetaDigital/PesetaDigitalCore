@@ -6,7 +6,7 @@ Con capacidad para hacer transacciones nacionales e internacionales cualquier d√
 
 # Contactar con el equipo:
 Telegram:
-** https://t.me/joinchat/AAAAAEKf5_1-Yx1b2vYOaw**
+**https://t.me/Pesetadigital**
 
  Website:
 **https://pesetadigital.es**
