@@ -48,6 +48,7 @@ sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb
 <br><br><br>
 **Compile the daemon in the PesetaDigital/src directory:**<br>
 cd PesetaDigital/src<br><br>
+chmod 755 leveldb/build_detect_platform <br><br>
 make -f makefile.unix USE_UPNP=1 USE_IPV6=1<br><br>
 strip PesetaDigitald<br>
 <br><br>
